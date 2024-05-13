@@ -20,6 +20,7 @@ public class Gitfacebook {
 	}
 	@Test
 	public void loginpage() {
+		Syste.out.println("Hello");
 		driver.findElement(By.name("email")).sendKeys("rakhi.1534@gmail.com");
 		driver.findElement(By.name("pass")).sendKeys("rakhimanoj123");
 		driver.findElement(By.name("login")).click();
